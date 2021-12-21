@@ -5,36 +5,31 @@
 } 
 
 #logo {
-  /* height: 14%; */
-  /* max-height: 100px;
-  min-height: 100px; */
-  /* min-width: 100px; */
   width: auto;
   position: fixed;
   top: 5%;
-  left: 4%; 
+  left: 6%; 
 }
 
 #logo:hover{
   content: url(../imgs/logo-light.png);
 }
 
-  /* || mobile || */
-  @media only screen and (min-width: 361px) and (max-width: 1140px) {
-
-    #logo {
-      /* min-height: 100px; */
-      height: 10%;
-      min-height: 80px;
-      /* min-height: 80px; */
-    }
-  }
 
   /* || desktop || */
   @media only screen and (min-width: 1143px) {
     
     #logo {
-      height: 12%;
+      height: 13%;
       min-height: 100px;
     }
   }
+
+    /* || mobile || */
+    @media only screen and (min-width: 361px) and (max-width: 1140px) {
+
+      #logo {
+        height: 10%;
+        min-height: 80px;
+      }
+    }

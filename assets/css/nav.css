@@ -26,8 +26,8 @@ body:before {
 /* || Burger icon position || */
 .burger {
     position: fixed;
-    top: 5%;
-    right: 5%; 
+    top: 4%;
+    right: 4%; 
   }
   
   .burger__button {
@@ -156,8 +156,13 @@ body:before {
   @media only screen and (min-width: 1143px) {
 
     .nav__bar {
-        width: 70%;
+        /* width: 70%; */
         order: 1;
         height: 100px;        
     }
   }
+    
+    /* || mobile || */
+    /* @media only screen and (min-width: 361px) and (max-width: 1140px) {
+
+    } */
