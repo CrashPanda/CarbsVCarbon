@@ -1,101 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
-    <!-- || STYLESHEETS || -->    
-    <!--  || Local Stylesheets || -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/logo.css">
-    <link rel="stylesheet" href="./assets/css/nav.css">
-    <!-- || Fonts Stylesheets || -->
-    <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet"  shref="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
-</head>
-<body>
-<!-- || HEADER || -->    
-    <!-- || Logo || --> 
-    <header class="header__container">
-        <div class="logo__container">   
-            <a href="./index.html">
-                <img src="./assets/imgs/logo.png" id="logo" alt="logo"></img>
-            </a>
-        </div>
-    <!-- || Burger Menu || -->   
-    <nav class="burger">
-        <a href="#" class="burger__button" id="burger-button">
-            <span class="burger__button__icon"></span>
-        </a>
-        <ul class="burger__menu">
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="./page2.html">SARNIES</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    </header>
-<!-- || MAIN || --> 
-    <div class="main__container">
-        <div class="section feature-1">
-            <h1 id="header">Carbs <br> VS <br> Carbon</h1>
-        </div>
-        <div class="section feature-2">
-            <h2 id="quote">Not all sandwiches are created equal - Is the humble sandwich a climate change culprit?</h2>
-            <p class="mission-statement" id="ms-part-2">In the first study of its kind, “Understanding the impact on climate change of convenience food: Carbon footprint of sandwiches”, Professor Adsida Azapagic and her colleagues at the University of Manchester, carried out and in-depth study of various sandwiches throughout their life cycles.</p>
-        </div>
-        <div class="section feature-2-2">
-            <p class="mission-statement" id="ms-part-2-2">To better understand the environmental impact of all these sarnies, the Manchester team looked at over 40 different sandwich types, recipes, and combinations as well as how they are made, packaged, transported, and stored. In addition, they considered the waste produced in making them, as well as the stale, rotten, or simply outdated sandwiches that are thrown away. <br><br> According to the British Sandwich Association (BSA) 11.5 billion sandwiches are eaten in the UK each year. About half of those are made at home and the other half are bought over the counter in shops, supermarkets and service stations around the country. The UK spends nearly £8bn a year on sandwiches, at an average cost of £2, but the cost to us all could be far greater - 9.5 million tonnes of carbon dioxide, the equivalent annual carbon emissions of 8.6 million cars in Britain alone.</p>
-        </div>
-        <div class="section feature-3">
-            <iframe src="https://www.youtube.com/embed/nUnJQWO4YJY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="section feature-4">
-            <p class="column-text">But don’t be hasty and ditch this much-loved staple of the British diet, as they likely have a lower environmental impact that a full restaurant meal.</p>
-            <p class="column-text">By just by changing recipes and ditching packaging waste could result in a 50% drop in sandwich-related carbon emissions.</p>
-        </div>
-        <div class="section feature-5">
-            <a href="#">
-                <img src="./assets/imgs/ribbon-text.png" id="ribbon" alt="ribbon"></img>
-            </a>
-        </div>
-        <div class="section feature-6">
-            <a href="#">
-                <img src="./assets/imgs/sarnie1.png" id="sarnie1" alt="sarnie1"></img>
-            </a>
-        </div> 
-        <div class="section feature-7">
-            <a href="#">
-                <img src="./assets/imgs/sarnie2.png" id="sarnie2" alt="sarnie2"></img>
-            </a>
-        </div>
-        <div class="section feature-8">
-            <a href="#">
-                <img src="./assets/imgs/sarnie3.png" id="sarnie3" alt="sarnie3"></img>
-            </a>
-        </div>
-        <div class="section feature-9">
-            <p id="sarnie-description">Check out our tasty recipes.</p>
-        </div> 
-        <!-- || Environmental Calc || --> 
-        <div class="section feature-10">
-            <embed class="calc" type="text/html" src="https://news.files.bbci.co.uk/include/newsspec/21841-green-diet/english/app/embed">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>test</title>
+        <!-- || STYLESHEETS || -->    
+        <!--  || Local Stylesheets || -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/page1.css"> 
+        <link rel="stylesheet" href="./assets/css/logo.css">
+        <link rel="stylesheet" href="./assets/css/nav.css">
+        <!-- || Fonts Stylesheets || -->
+        <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet"  shref="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">        
+    </head>
+    <body>
+    <!-- || HEADER || -->    
+        <!-- || Logo || --> 
+        <header class="header__container">
+            <div class="logo__container">    
+                <a href="./index.html">
+                    <img src="./assets/imgs/logo.png" id="logo" alt="logo"></img>
+                </a>
+            </div> 
+        <!-- || Burger Menu || -->   
+            <!-- <nav class="burger sidebar bar-block card center" style="display:none" id="mySidebar"> -->
+            <nav class="burger bar-block center" id="mySidebar">
+                <a href="#" class="burger__button" id="burger-button">
+                    <span class="burger__button__icon"></span>
+                </a>
+                <ul class="burger__menu">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./page2.html">SARNIES</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- || MAIN || --> 
+            <div class="main__container"> 
+                <!-- SECTION 1 - Header and intro -->
+                <!-- <div class="title"> -->
+                <div class="heading-container row-margin">
+                    <h1 id="heading content-padding">Carbs <br> VS <br> Carbon</h1>
+                </div>        
+                <div class="section-1 row-margin">
+                    <div class="third white-1">
+                        <h2 id="quote">Not all sandwiches are created equal - Is the humble sandwich a climate change culprit?</h2>
+                    </div>
+                    <div class="twothird grey-1"> 
+                        <p class="mission-statement" id="mission-statement-1">In the first study of its kind, “Understanding the impact on climate change of convenience food: Carbon footprint of sandwiches”, Professor Adsida Azapagic and her colleagues at the University of Manchester, carried out and in-depth study of various sandwiches throughout their life cycles.</p>
+                    </div>
+                </div>
+                <div class="section-2 row-margin">
+                    <div class=" grey-1">
+                        <p class="mission-statement" id="mission-statement-2">To better understand the environmental impact of all these sarnies, the Manchester team looked at over 40 different sandwich types, recipes, and combinations as well as how they are made, packaged, transported, and stored. In addition, they considered the waste produced in making them, as well as the stale, rotten, or simply outdated sandwiches that are thrown away. <br><br> According to the British Sandwich Association (BSA) 11.5 billion sandwiches are eaten in the UK each year. About half of those are made at home and the other half are bought over the counter in shops, supermarkets and service stations around the country. The UK spends nearly £8bn a year on sandwiches, at an average cost of £2, but the cost to us all could be far greater - 9.5 million tonnes of carbon dioxide, the equivalent annual carbon emissions of 8.6 million cars in Britain alone.</p>
+                    </div>
+                </div>
+
+                <!-- SECTION 2 - Video -->
+                <div class="section-3 row-margin "> 
+                    <!-- <div class="column"> -->
+                    <div class="card-container">
+                        <div class="card">
+                            <iframe src="https://www.youtube.com/embed/nUnJQWO4YJY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- SECTION 3 - text -->
+                <div class="section-4 row-margin">
+                    <div class="half colunn-1">
+                        <p class="column-text">But don’t be hasty and ditch this much-loved staple of the British diet, as they likely have a lower environmental impact that a full restaurant meal.</p>
+                    </div>
+                    <div class="half column-2">
+                        <p class="column-text">By just by changing recipes and ditching packaging waste could result in a 50% drop in sandwich-related carbon emissions.</p>
+                    </div>
+                </div>
+            
+                <!-- SECTION 4 - Banner -->
+                    <div class="section-5 row-margin">
+                        <div class="card-container">
+                            <a href="#" class="card">
+                                <img src="./assets/imgs/ribbon-text.png" id="ribbon" alt="ribbon"></img>
+                            </a> 
+                        </div>
+                    </div>
+
+                <!-- Section 5 - Sarnies -->
+                <div class="section-6 row-margin">
+                    <!-- <div class="sarnie-container"> -->
+                        <div class="sarnie-container ">
+                            <!-- <p>Sarnie 1</p> -->
+                            <a href="#" class="sarnie-1 sarnie-quarter">
+                                <img src="./assets/imgs/sarnie4.png" id="sarnie1" alt="sarnie1"></img>
+                            </a>
+                        </div>
+                        <div class="sarnie-container">
+                        <!-- <p>Sarnie 2</p> -->
+                        <a href="#" class="sarnie-2 sarnie-quarter">
+                            <img src="./assets/imgs/sarnie2.png" id="sarnie2" alt="sarnie2" id="sarnie2" alt="sarnie2"></img>
+                        </a>
+                        </div>
+                        <div class="sarnie-container">
+                            <!-- <p>Sarnie 3</p> -->
+                            <a href="#" class="sarnie-3 sarnie-quarter">
+                                <img src="./assets/imgs/sarnie3.png" id="sarnie3" alt="sarnie3"></img>
+                            </a>
+                        </div>
+                        <div class="sarnie-container">
+                            <!-- <p>Text</p> -->
+                            <div class="sarnie-4 sarnie-quarter"> 
+                                <p id="sarnie4">Check out our tasty recipes.</p> 
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+
+                <!-- Section 6 - Environmental Calc -->
+                <div class="section-7 row-margin"> 
+                    <!-- <div class="column"> -->
+                    <div class="card-container">
+                        <div class="calc-card card">
+                            <embed class="calc" type="text/html" src="https://news.files.bbci.co.uk/include/newsspec/21841-green-diet/english/app/embed">
+                            <!-- <img src="/w3images/car.jpg" alt="Car" style="width:100%">
+                            <div class="w3-container"> -->
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </main>
+    <!-- || FOOTER || -->
+        <!-- Section 7 - Footer -->
+        <footer class="container theme-dark padding-16 footer__container">
+            <div class="section footer">
+                <p>With Thanks to Code First Girls and Service Now</p>
             </div>
-    </div>
-<!-- || FOOTER || -->
-    <div class="footer__container"> 
-        <div class="section footer">
-            <p>With Thanks to Code First Girls and Service Now</p>
-        </div>
-    </div>
-<!-- || SCRIPTS || --> 
-    <!-- || Rellax - Parallax sarnie || -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
-    <!-- || Parallax - jQuery || -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-    <!-- || Local Js Script || -->
-    <script src="./assets/js/script.js"></script>
-</body>
+        </footer>
+    <!-- || SCRIPTS || --> 
+        <!-- || Rellax - Parallax sarnie || -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+        <!-- || Parallax - jQuery || -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <!-- || Local Js Script || -->
+        <script src="./assets/js/script.js"></script>
+    </body>
 </html>

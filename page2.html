@@ -8,85 +8,140 @@
     <!-- || STYLESHEETS || -->    
     <!--  || Local Stylesheets || -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/page2.css">
     <link rel="stylesheet" href="./assets/css/logo.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <!-- || Fonts Stylesheets || -->
     <link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet"  shref="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <!-- || Carousel Stylesheets || -->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+<!--     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
 </head>
 <body>
     <!-- || HEADER || -->    
     <!-- || Logo || --> 
     <header class="header__container">
-        <div class="logo__container">   
-            <a href="./index.html">
-                <img src="./assets/imgs/logo.png" id="logo" alt="logo"></img>
-            </a>
-        </div>
-    <!-- || Burger Menu || -->   
-    <nav class="burger">
-        <a href="#" class="burger__button" id="burger-button">
-            <span class="burger__button__icon"></span>
-        </a>
-        <ul class="burger__menu">
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="./page2.html">SARNIES</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    </header>
-    <!-- || Carousel || -->   
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="logo__container">   
+          <a href="./index.html">
+              <img src="./assets/imgs/logo.png" id="logo" alt="logo"></img>
+          </a>
       </div>
-      <!-- || FOOTER || -->
-    <div class="footer__container"> 
-        <div class="section footer">
-            <p>With Thanks to Code First Girls and Service Now</p>
+    <!-- || Burger Menu || -->   
+      <nav class="burger">
+          <a href="#" class="burger__button" id="burger-button">
+              <span class="burger__button__icon"></span>
+          </a>
+          <ul class="burger__menu">
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./page2.html">SARNIES</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- || Carousel || -->  
+      <div class="slideshow-container">
+        <!-- Slideshow 1 -->
+        <div class="slideshow one">
+            <img class="mySlides1" src="#" style="width:350px; height: 150px; background-color:green">
+            <img class="mySlides1" src="#" style="width:350px; height: 150px; background-color:aqua">
+            <img class="mySlides1" src="#" style="width:350px; height: 150px; background-color:blue">
+            <img class="mySlides1" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+            <div class="button-container">
+              <button class="button-left" onclick="plusSlides(-1, 0)">&#10094;</button>
+              <button class="button-right" onclick="plusSlides(1, 0)">&#10095;</button>
+            </div>
         </div>
+      
+        <!-- Slideshow 2 -->
+        <div class="slideshow two">
+          <img class="mySlides2" src="#" style="width:350px; height: 150px; background-color:green">
+          <img class="mySlides2" src="#" style="width:350px; height: 150px; background-color:aqua">
+          <img class="mySlides2" src="#" style="width:350px; height: 150px; background-color:blue">
+          <img class="mySlides2" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+          <div class="button-container">
+            <button class="button-left" onclick="plusSlides(-1, 1)">&#10094;</button>
+            <button class="button-right" onclick="plusSlides(1, 1)">&#10095;</button>
+          </div> 
+        </div>
+      
+        <!-- Slideshow 3 -->
+        <div class="slideshow three">
+          <img class="mySlides3" src="#" style="width:350px; height: 150px; background-color:green">
+          <img class="mySlides3" src="#" style="width:350px; height: 150px; background-color:aqua">
+          <img class="mySlides3" src="#" style="width:350px; height: 150px; background-color:blue">
+          <img class="mySlides3" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+          <div class="button-container">
+            <button class="button-left" onclick="plusSlides(-1, 2)">&#10094;</button>
+            <button class="button-right" onclick="plusSlides(1, 2)">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Slideshow 4 -->
+        <div class="slideshow four">
+          <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:green">
+          <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:aqua">
+          <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:blue">
+          <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+          <div class="button-container">
+            <button class="button-left" onclick="plusSlides(-1, 3)">&#10094;</button>
+            <button class="button-right" onclick="plusSlides(1, 3)">&#10095;</button>
+          </div>
+        </div>
+
+        <!-- Slideshow 5 -->
+        <div class="slideshow five">
+          <img class="mySlides5" src="#" style="width:350px; height: 150px; background-color:green">
+          <img class="mySlides5" src="#" style="width:350px; height: 150px; background-color:aqua">
+          <img class="mySlides5" src="#" style="width:350px; height: 150px; background-color:blue">
+          <img class="mySlides5" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+          <div class="button-container">
+            <button class="button-left" onclick="plusSlides(-1, 4)">&#10094;</button>
+            <button class="button-right" onclick="plusSlides(1, 4)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- <div class="slideshow">
+      <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:green">
+      <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:aqua">
+      <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:blue">
+      <img class="mySlides4" src="#" style="width:350px; height: 150px; background-color:blueviolet">
+      <div class="button-container">
+        <a class="button glyphicon glyphicon-chevron-left" onclick="plusSlides(-1, 3)"></a>
+        <a class="button glyphicon glyphicon-chevron-right" onclick="plusSlides(1, 3)"></a>
+      </div>
     </div>
+  </div>
+</main> -->
+
+
+    <!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> -->
+
+      <!-- || FOOTER || -->
+    <footer class="footer__container section"> 
+        <p>With Thanks to Code First Girls and Service Now</p>
+    </footer>
     <!-- || SCRIPTS || --> 
+    <!-- Carousel  -->
+    <script src="./assets/js/carousel.js"></script>
     <!-- || Rellax - Parallax sarnie || -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
     <!-- || Parallax - jQuery || -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- || Local Js Script || -->
     <script src="./assets/js/script.js"></script>
 </body>
